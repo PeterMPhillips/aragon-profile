@@ -1,0 +1,4 @@
+export var OPENED_MODAL = 'OPENED_MODAL';
+export var CLOSED_MODAL = 'CLOSED_MODAL';
+export var REMOVE_ITEM = 'REMOVE_ITEM';
+export var OPENED_BOX_MODAL = 'OPENED_BOX_MODAL';
