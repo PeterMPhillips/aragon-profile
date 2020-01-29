@@ -1,0 +1,74 @@
+{
+  "name": "@openworklabs/aragon-profile",
+  "version": "0.1.20",
+  "description": "a single profile component for the Aragon Client",
+  "author": "Schwartz10",
+  "license": "MIT",
+  "repository": "AutarkLabs/aragon-profile",
+  "main": "./dist/index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "clean": "rm -rf ./dist",
+    "lint": "eslint --ext .js src/",
+    "prepublishOnly": "npm run build",
+    "prepare-local-dev": "cd ./node_modules && rm -rf react && rm -rf react-dom && rm -rf styled-components && rm -rf web3-utils && rm -rf @aragon/ui && cd ../",
+    "test": "cross-env CI=1 react-scripts test --env=jsdom",
+    "test:watch": "react-scripts test --env=jsdom"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "peerDependencies": {
+    "@aragon/ui": "^1.2.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-onclickout": "^2.0.8",
+    "react-spring": "^7.2.10",
+    "styled-components": "^4.2.1",
+    "web3-utils": "^1.2.1"
+  },
+  "dependencies": {
+    "3box": "^1.15.0",
+    "ajv": "^6.10.0",
+    "dayjs": "^1.8.14",
+    "husky": "^3.0.1",
+    "ipfs-http-client-lite": "^0.3.0",
+    "lodash.clonedeep": "^4.5.0",
+    "react-dropzone": "10.1.5",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-styled-components": "^1.7.1",
+    "babel-runtime": "^6.26.0",
+    "eslint": "^5.6.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^7.0.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.15.0"
+  },
+  "files": [
+    "dist",
+    "src",
+    "assets"
+  ]
+}
