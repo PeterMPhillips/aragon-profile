@@ -34,7 +34,7 @@ import BoxState from './BoxState';
 import AfterSave from './AfterSave';
 import { BASIC_INFORMATION, EDUCATION_HISTORY, WORK_HISTORY, ORGANIZATION, REMOVE_ITEM, BOX_STATE, SAVING_PROFILE, SAVED_PROFILE_SUCCESS, SAVED_PROFILE_ERROR } from '../../stateManagers/modal/types';
 
-var _StyledDiv = _styled.div.withConfig({
+var _StyledDiv = _styled("div").withConfig({
   displayName: "modals___StyledDiv",
   componentId: "sc-7dneqd-0"
 })(["position:relative"]);

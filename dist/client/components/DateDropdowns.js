@@ -16,32 +16,32 @@ var Label = styled.label.withConfig({
   componentId: "sc-595lse-0"
 })(["text-transform:lowercase;font-variant:small-caps;color:#707070;"]);
 
-var _StyledDiv = styled.div.withConfig({
+var _StyledDiv = styled("div").withConfig({
   displayName: "DateDropdowns___StyledDiv",
   componentId: "sc-595lse-1"
 })(["width:48%;"]);
 
-var _StyledDiv2 = styled.div.withConfig({
+var _StyledDiv2 = styled("div").withConfig({
   displayName: "DateDropdowns___StyledDiv2",
   componentId: "sc-595lse-2"
 })(["width:48%;"]);
 
-var _StyledDiv3 = styled.div.withConfig({
+var _StyledDiv3 = styled("div").withConfig({
   displayName: "DateDropdowns___StyledDiv3",
   componentId: "sc-595lse-3"
 })(["display:flex;height:40px;margin-bottom:20px;"]);
 
-var _StyledDiv4 = styled.div.withConfig({
+var _StyledDiv4 = styled("div").withConfig({
   displayName: "DateDropdowns___StyledDiv4",
   componentId: "sc-595lse-4"
 })(["width:48%;"]);
 
-var _StyledDiv5 = styled.div.withConfig({
+var _StyledDiv5 = styled("div").withConfig({
   displayName: "DateDropdowns___StyledDiv5",
   componentId: "sc-595lse-5"
 })(["width:48%;"]);
 
-var _StyledLabel = styled.label.withConfig({
+var _StyledLabel = styled("label").withConfig({
   displayName: "DateDropdowns___StyledLabel",
   componentId: "sc-595lse-6"
 })(["display:flex;align-items:center;"]);

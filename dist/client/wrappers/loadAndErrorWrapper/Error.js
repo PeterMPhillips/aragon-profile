@@ -9,12 +9,12 @@ import { IconEthereum } from '../../components/styled-components';
 import { Text, Card, theme } from '@aragon/ui';
 import styled from 'styled-components';
 
-var _StyledDiv = styled.div.withConfig({
+var _StyledDiv = styled("div").withConfig({
   displayName: "Error___StyledDiv",
   componentId: "sc-1kxw6za-0"
 })(["width:100%"]);
 
-var _StyledDiv2 = styled.div.withConfig({
+var _StyledDiv2 = styled("div").withConfig({
   displayName: "Error___StyledDiv2",
   componentId: "sc-1kxw6za-1"
 })(["display:flex;margin-bottom:24px"]);

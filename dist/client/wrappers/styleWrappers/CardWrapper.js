@@ -7,7 +7,7 @@ import { Card, Text, useTheme } from '@aragon/ui';
 import styled from 'styled-components';
 import { Link } from '../../components/styled-components';
 
-var _StyledDiv = styled.div.withConfig({
+var _StyledDiv = styled("div").withConfig({
   displayName: "CardWrapper___StyledDiv",
   componentId: "tsh62v-0"
 })(["margin-top:15px"]);

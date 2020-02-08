@@ -7,7 +7,7 @@ import ProfilePicture from '../../components/informationPanel/ProfilePicture';
 import { BasicInfoCardWrap, ContentWrap, EthAddr, IconEthereum } from '../../components/styled-components';
 import { Text } from '@aragon/ui';
 
-var _StyledDiv = _styled.div.withConfig({
+var _StyledDiv = _styled("div").withConfig({
   displayName: "NoProfile___StyledDiv",
   componentId: "sc-4i6ab3-0"
 })(["display:flex;margin:7px 0 24px;"]);
